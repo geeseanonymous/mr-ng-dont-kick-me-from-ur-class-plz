@@ -4,7 +4,6 @@ import keyboard
 import pyautogui as pag
 import pytesseract as pt
 import time
-import itertools
 
 time.sleep(30) # sleep or something idk
 

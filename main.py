@@ -10,7 +10,7 @@ time.sleep(30) # sleep or something idk
 pt.pytesseract.tesseract_cmd = 'PATH\\TO\\tessract-osr\\tesseract.exe'
 # probably something like 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe' but depends on where you install it
 
-def typist_rizz():
+def type_test():
 
     # dimensions of screenshot
     # left is the left border of the sc / top is the top border
@@ -43,4 +43,4 @@ def typist_rizz():
         pag.press("enter")
 
 # lose all your friends 😎😎😎
-typist_rizz()
+type_test()

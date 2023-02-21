@@ -22,7 +22,7 @@ def typist_rizz():
     
     # screenshot!! and save
     sc = pag.screenshot(region=(left, top, width, height))
-    sc.save('typering.jpg')
+    sc.save('typering.jpg') # saving is not needed but its cool for debugging
 
     # image to text with pytesseract
     raw_words = pt.image_to_string(sc)
